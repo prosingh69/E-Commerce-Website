@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CyberMart</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="utlility.css">
+</head>
+<body class="roboto-900">
+  <!-- Particles background (full screen) -->
+  <div id="particles-js" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+  <div class="nav-container">
+    <div class="logo roboto-900">Cyber<span>Mart</span></div>
+    <div class="nav-btn-cont" id="nav-auth-container">
+    <button class="nav-btn roboto">Log In</button>
+    <button class="nav-btn roboto">Sign Up</button>
+  </div> 
+  
+    
+  </div>
+</header>
+
+<section class="hero">
+  <h1 class="hero-title">Cyber<span>Mart</span></h1>
+
+  <div class="hero-subtitle">
+    <span class="line"></span>
+    <span class="text">EXCLUSIVE MERCH</span>
+    <span class="line"></span>
+  </div>
+
+  <p class="hero-desc roboto">
+    Your one-stop space for premium digital products.<br>
+    Experience the future of online shopping with AI-powered speed.
+  </p>
+
+  <a href="#shop" class="hero-btn">Explore Now</a>
+</section>
+
+<section class="product-section" id="buy">
+  <div class="container">
+
+    <!-- LEFT: PRODUCT CARD + THUMBNAILS -->
+    <div class="prod-left">
+      <div class="prod-card">
+        <img id="main-img" src="./pics/black-pic-1.jpg" alt="Product">
+      </div>
+
+      <div class="thumbs">
+        <button class="thumb active" data-src="./pics/black-pic-1.jpg">
+          <img src="./pics/black-pic-1.jpg" alt="">
+        </button>
+        <button class="thumb" data-src="./pics/black-pic-2.jpg">
+          <img src="./pics/black-pic-2.jpg" alt="">
+        </button>
+        <button class="thumb" data-src="./pics/black-pic-3.jpg">
+          <img src="./pics/black-pic-3.jpg" alt="">
+        </button>
+      </div>
+    </div>
+
+    <!-- RIGHT: DETAILS -->
+    <div class="prod-right">
+      <h3 class="prod-kana">Cyber<span>Mart</span> <span class="ebay-font special">Special</span></h3>
+      <h1 class="prod-title roboto-900">Premium Cyber Hoodie</h1>
+      <p class="prod-desc">
+        Designed for creators — premium 240 GSM cotton, oversized fit and neon-inspired print.
+        Limited edition — grab yours while stocks last.
+      </p>
+
+      <div class="price-row">
+        <div class="price-main">₹449</div>
+        <div class="price-old">₹500</div>
+        <div class="tag">Early Bird Offer</div>
+      </div>
+
+      <div class="secondary-note">₹549 for outside IETs or alumni</div>
+
+      <!-- COLOR SELECTION -->
+      <div class="label">COLOR SELECTION</div>
+      <div class="color-row">
+        <button class="color-pill" data-color="Beige">Beige</button>
+        <button class="color-pill active" data-color="Black">Black</button>
+      </div>
+
+      <!-- MATERIAL / FIT CARDS -->
+      <div class="meta-row">
+        <div class="meta-card">
+          <div class="meta-title">MATERIAL</div>
+          <div class="meta-sub">Premium Cotton (240 GSM)</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-title">FIT</div>
+          <div class="meta-sub">Oversized</div>
+        </div>
+      </div>
+
+      <!-- BIG BUY BUTTON -->
+      <div class="buy-row">
+        <button class="buy-large" id="buy-now">BUY NOW</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-top">
+      
+      <div class="footer-brand-col">
+        <div class="footer-logo roboto-900">Cyber<span>Mart</span></div>        
+      </div>
+
+      <div class="footer-socials">
+        <a href="#" class="social-btn" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+
+        <a href="#" class="social-btn" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      Copyright © 2025 - All rights reserved by <span class="highlight">CyberMart</span>
+    </div>
+
+  </div>
+</footer>
+
+<!-- ORDER MODAL (hidden by default) -->
+<div id="order-modal" class="order-modal" aria-hidden="true" role="dialog" aria-labelledby="order-title">
+  <div class="order-backdrop" id="order-backdrop"></div>
+
+  <div class="order-panel" role="document">
+    <button class="order-close" id="order-close" aria-label="Close order form">&times;</button>
+
+    <h2 id="order-title" class="order-heading">Place your order</h2>
+
+    <form id="order-form" class="order-form" autocomplete="on" novalidate>
+      <div class="row">
+        <label>Item Name
+          <input id="order-item" name="item" type="text" readonly>
+        </label>
+
+        <label>Quantity
+          <select id="order-qty" name="quantity">
+            <!-- generated by JS 1..10 -->
+          </select>
+        </label>
+      </div>
+
+      <div class="row small-gap">
+        <label>Price per item (₹)
+          <input id="order-price" name="price" type="text" readonly>
+        </label>
+
+        <label>Total (₹)
+          <input id="order-total" name="total" type="text" readonly>
+        </label>
+      </div>
+
+      <hr class="divider">
+
+      <label>Full name
+        <input id="order-name" name="fullname" type="text" required placeholder="Your full name">
+      </label>
+
+      <label>Email
+        <input id="order-email" name="email" type="email" required placeholder="you@example.com">
+      </label>
+
+      <div class="row small-gap">
+        <label>Mobile
+          <input id="order-mobile" name="mobile" type="tel" inputmode="numeric" required placeholder="10-digit mobile">
+        </label>
+
+        <label>Pincode
+          <input id="order-pincode" name="pincode" type="text" inputmode="numeric" required placeholder="PIN">
+        </label>
+      </div>
+      
+      <!-- FIX: Replaced conflicting 'Address' input with detailed fields -->
+      <label>Street Address
+        <input id="order-street" name="street" type="text" required placeholder="House No., Building, or Road">
+      </label>
+
+      <label>Area / Locality
+        <input id="order-area" name="area" type="text" required placeholder="Area or Locality">
+      </label>
+
+      <div class="row small-gap">
+        <label>City
+          <input id="order-city" name="city" type="text" required placeholder="City name">
+        </label>
+
+        <label>State
+          <input id="order-state" name="state" type="text" required placeholder="State name">
+        </label>
+      </div>
+      <!-- END FIX -->
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary" id="order-submit">Confirm Order</button>
+        <button type="button" class="btn btn-ghost" id="order-cancel">Cancel</button>
+      </div>
+
+      <div id="order-msg" class="order-msg" aria-live="polite"></div>
+    </form>
+  </div>
+</div>
+
+
+
+  
+
+  <!-- particles library + site script -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</body>
+</html>
